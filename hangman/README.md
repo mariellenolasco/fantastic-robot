@@ -1,4 +1,4 @@
-# Flow Control Activity
+# Hangman Flow Control Activity
 
 ---
 
