@@ -7,6 +7,7 @@ The goal of the activities listed below is to give associates experience working
 Given two double values, earnedPoints and totalPoints, calculate and display the letter grade for an assignment
  
 Estimated time: 15 minutes
+
 Associate facing instructions:
 ```
 Today, we'll practice simple flow control with a method that prints out a letter grade based off the points earned on an assignment
@@ -42,6 +43,8 @@ Output:
 This is a more complex version of the activity above. This activity involves taking two arrays of values, earnedPoints and totalPoints, and has the associate display the average grade among all of them. 
 
 Estimated time: 30 minutes
+
+Associate facing instructions:
 ```
 Today, we'll calculate a student's grade in a class as the average of all the scores they've earned on their assignments thus far.
 
@@ -97,6 +100,7 @@ arrays" or "Negative scores are not possible" instead of a letter grade.
 Using the given template for a game of hangman, associates must draw the hangman based off the current `Player`'s life
  
 Estimated time: 30 minutes
+
 Associate facing instructions:
 ```
 You're building a game of Hangman in Java. You're almost complete, but the last step is to draw the hangman. 
@@ -107,7 +111,7 @@ After each incorrect guess, a new body part is added to hangman until the entire
 to no remaining guesses.
 
 Inside the HangmanService class exists a method called draw(). Your goal is to alter this method so it accurately draws the hangman 
-as a reflection of the total lifes left. This should take in the number of lives the player currently has left and should display 
+as a reflection of the total lives left. This should take in the number of lives the player currently has left and should display 
 the appropriate hangman for that number of lives.
 
 Note: You'll have to update the method signature for the draw() method to make sure it takes in the number of lives the player has 
