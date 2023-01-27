@@ -55,7 +55,7 @@ Using these two values, calculate the percentage of points earned on the assignm
 
 Repeat this for every index pair in earnedPoints and totalPoints.
 
-From here, calculate the average score earned across all assignments and use this value to calculate the letter grade for the class:
+Next, calculate the average score earned across all assignments and use this value to calculate the letter grade for the class:
 
 <60.0% -> F
 60.0 - 69.9% -> D 
@@ -86,7 +86,11 @@ Avg Score = (.714 + .775 + .8 + .95 + .975)/5 = .843 or 84.3%
 If desired, supplemental instructions can be added as well for data validation, such as the following lines
 
 ``` 
-The method should also provide basic validation, meaning it should notify the user if there are any "illegal" situations with the grades. Some examples of this might include if the arrays are different sizes, which would mean we'd have too many points on one side or the other. Another situation might be if a student earns negative points on an assignment. The method should check for these edge cases and act accordingly by printing something like "Cannot have different sized input arrays" or "Negative scores are not possible" instead of a letter grade.
+The method should also provide basic validation, meaning it should notify the user if there are any "illegal" situations 
+with the grades. Some examples of this might include if the arrays are different sizes, which would mean we'd have too 
+many points on one side or the other. Another situation might be if a student earns negative points on an assignment. The 
+method should check for these edge cases and act accordingly by printing something like "Cannot have different sized input 
+arrays" or "Negative scores are not possible" instead of a letter grade.
 ```
 
 ## Hangman Game
@@ -99,11 +103,16 @@ You're building a game of Hangman in Java. You're almost complete, but the last 
 
 As the game is played, players attempt to guess letters of a hidden word before they run out of lives.
 
-After each incorrect guess, a new body part is added to hangman until the entire body is there, signalling the end of the game due to no remaining guesses.
+After each incorrect guess, a new body part is added to hangman until the entire body is there, signalling the end of the game due 
+to no remaining guesses.
 
-Inside the HangmanService class exists a method called draw(). Your goal is to alter this method so it accurately draws the hangman as a reflection of the total lifes left. This should take in the number of lives the player currently has left and should display the appropriate hangman for that number of lives.
+Inside the HangmanService class exists a method called draw(). Your goal is to alter this method so it accurately draws the hangman 
+as a reflection of the total lifes left. This should take in the number of lives the player currently has left and should display 
+the appropriate hangman for that number of lives.
 
-Note: You'll have to update the method signature for the draw() method to make sure it takes in the number of lives the player has remaining. You'll have to update where the method gets called to avoid any syntactical errors, so explore the template and be prepared to investigate the prewritten code.
+Note: You'll have to update the method signature for the draw() method to make sure it takes in the number of lives the player has 
+remaining. You'll have to update where the method gets called to avoid any syntactical errors, so explore the template and be 
+prepared to investigate the prewritten code.
 
 Ex:
 
