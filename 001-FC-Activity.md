@@ -2,8 +2,14 @@
 ## Scope
 The goal of the activities listed below is to give associates experience working with basic control flow statements. The activities listed below range in difficulty from minimal to medium difficulty since control flow is generally one of the earliest topics covered in most curricula, as such, a trainer may peruse these activities to decide which is the most applicable for the batch.
 
+## Legend For Activity Guide
 
-## Simple grading calculator
+- :white_check_mark: - Tested successfully with a live batch
+- :warning: - Tested with live batch with minor bugs/alterations
+- :x: - Never tested with a live batch
+
+
+##  :x: Simple grading calculator
 Given two double values, earnedPoints and totalPoints, calculate and display the letter grade for an assignment
  
 Estimated time: 15 minutes
@@ -39,7 +45,7 @@ Output:
 71.4% is between 70.0% and 79.9% thus, C should be printed to the console by the method
 ```
  
-## Grading Calculator
+##  :x: Grading Calculator
 This is a more complex version of the activity above. This activity involves taking two arrays of values, earnedPoints and totalPoints, and has the associate display the average grade among all of them. 
 
 Estimated time: 30 minutes
@@ -96,7 +102,7 @@ method should check for these edge cases and act accordingly by printing somethi
 arrays" or "Negative scores are not possible" instead of a letter grade.
 ```
 
-## Hangman Game
+## :white_check_mark: Hangman Game
 Using the given template for a game of hangman, associates must draw the hangman based off the current `Player`'s life
  
 Estimated time: 30 minutes
